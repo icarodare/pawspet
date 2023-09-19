@@ -10,7 +10,7 @@
 
 <br />
 
-### Demo Screeshots
+### Demo Screenshots
 
 ![Pawspet Desktop Demo](./assets/images/readme-img.png "Desktop Demo")
 
