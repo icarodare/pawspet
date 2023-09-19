@@ -39,7 +39,7 @@ git clone https://github.com/icarodare/pawspet.git
 
 ### Contato
 
-Se desejar entrar em contato comigo, faça-o através do [Email](mailto:icaro.dare@outlook.com)
+Caso queira entrar em contato comigo, faça-o através do [Email](mailto:icaro.dare@outlook.com)
 
 
 ### Licença
