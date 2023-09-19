@@ -2,7 +2,7 @@
 
   <br />
 
-  <h1 align="center">Pawspet - PetShop eCommerce website</h1>
+  <h1 align="center">Pawspet - PetShop Online</h1>
 
   Pawspet é um site de comércio eletrônico criado como parte de um projeto para uma disciplina da universidade. <br />Compatível com todos os dispositivos, construído utilizando HTML, CSS e JavaScript.
 
