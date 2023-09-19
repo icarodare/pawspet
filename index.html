@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pawspet</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/png">
+
+  <!-- css -->
+  <link rel="stylesheet" href="./assets/css/index-style.css">
+
+  <!-- javascript -->
+  <script src="./assets/js/index-script.js" async></script>
+
+  <!-- ionicon -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" defer></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script>
+
+</head>
+
+<body id="top">
+
+  <!--------------------------->
+  <!------- #CABEÇALHO -------->
+  <!--------------------------->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="160" height="50" alt="Pawspet logo">
+      </a>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" width="190" height="59" alt="Pawspet logo">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Início</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Sobre Nós</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Produtos</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Serviços</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Categorias</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Contato</a>
+          </li>
+
+        </ul>
+
+        <ul class="nav-action-list">
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Procurar</span>
+            </button>
+          </li>
+
+          <li>
+            <a href="register.html" class="nav-action-btn">
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Entrar / Cadastrar</span>
+            </a>
+          </li>
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+
+              <span class="nav-action-text">Lista de Desejos</span>
+
+              <data class="nav-action-badge" value="5" aria-hidden="true">5</data>
+            </button>
+          </li>
+
+          <li>
+            <button class="nav-action-btn">
+              <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+
+              <data class="nav-action-text" value="378.00">Sacola: <strong>R$ 378,00</strong></data>
+
+              <data class="nav-action-badge" value="4" aria-hidden="true">4</data>
+            </button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!--------------------------->
+      <!-------- #BANNER ---------->
+      <!--------------------------->
+
+      <section class="section banner" style="background-image: url('./assets/images/main-banner.png')">
+        <div class="container">
+
+          <h2 class="h1 banner-title">
+            Mês Solidário <strong>Abril Pawspet</strong>
+          </h2>
+
+          <p class="banner-text">
+            Aqui na Pawspet, todo mês é dedicado à prevenção da crueldade animal.
+            Através das suas compras, você apoia a causa e ajuda nossos amigos de quatro patas!
+          </p>
+
+          <button class="btn btn-primary">
+            <span>Compre agora</span>
+
+            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--------------------------->
+      <!-------- #GRUPOS ---------->
+      <!--------------------------->
+
+      <section class="section group">
+        <div class="container">
+
+          <ul class="group-list has-scrollbar">
+
+            <li>
+              <div class="group-card" style="background-image: url('./assets/images/group-1.png')">
+                <h3 class="h4 card-title">Seção Caninos</h3>
+
+                <a href="#" class="btn btn-secondary">
+                  <span>Explorar</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="group-card" style="background-image: url('./assets/images/group-2.png')">
+                <h3 class="h4 card-title">Seção Felinos</h3>
+
+                <a href="#" class="btn btn-secondary">
+                  <span>Explorar</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="group-card" style="background-image: url('./assets/images/group-3.png')">
+                <h3 class="h4 card-title">Seção Roedores</h3>
+
+                <a href="#" class="btn btn-secondary">
+                  <span>Explorar</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--------------------------->
+      <!-------- #PRODUTOS -------->
+      <!--------------------------->
+
+      <section class="section product">
+        <div class="container">
+
+          <h2 class="h2 section-title">Produtos mais vendidos</h2>
+
+          <ul class="filter-list">
+
+            <li>
+              <button class="filter-btn">Todos</button>
+            </li>
+
+            <li>
+              <button class="filter-btn active">Rações</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Medicamentos</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Petiscos</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Comedouros</button>
+            </li>
+
+            <li>
+              <button class="filter-btn">Coleiras</button>
+            </li>
+
+          </ul>
+
+          <ul class="product-list">
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-1.png" width="312" height="350" loading="lazy"
+                    alt="Ração seca para cachorros" class="image-contain">
+
+                  <div class="card-badge">New</div>
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Adicionar ao Carrinho</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Adicionar aos Favoritos</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">Cães</a> /
+                    <a href="#" class="card-cat-link">Adultos</a>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Ração Seca Nutrilus Pro+ Frango & Carne</a>
+                  </h3>
+
+                  <data class="card-price" value="204.90">R$ 204,90</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-2.png" width="312" height="350" loading="lazy"
+                    alt="Ração úmida para cachorros" class="image-contain">
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Adicionar ao Carrinho</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Adicionar aos Favoritos</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">Cães</a> /
+                    <a href="#" class="card-cat-link">Adultos</a>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Ração Úmida Pedigree Sachê Carne ao Molho</a>
+                  </h3>
+
+                  <data class="card-price" value="2.79">R$ 2,79</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-3.png" width="312" height="350" loading="lazy"
+                    alt="Ração seca para gatos" class="image-contain">
+
+                  <div class="card-badge">New</div>
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Adicionar ao Carrinho</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Adicionar aos Favoritos</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">Gatos</a> /
+                    <a href="#" class="card-cat-link">Adultos</a> /
+                    <a href="#" class="card-cat-link">Castrados</a>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Ração Seca Premier Pet Golden Frango</a>
+                  </h3>
+
+                  <data class="card-price" value="171.90">R$ 171,90</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-4.png" width="312" height="350" loading="lazy"
+                    alt="Ração seca para cachorros" class="image-contain">
+
+                  <div class="card-badge"> -25%</div>
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Adicionar ao Carrinho</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Adicionar aos Favoritos</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">Cães</a> /
+                    <a href="#" class="card-cat-link">Adultos</a>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Ração Seca Premier Pet Golden Special Frango e Carne</a>
+                  </h3>
+
+                  <data class="card-price" value="145.90">R$ 145,90 <del>R$ 194.90</del></data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-5.png" width="312" height="350" loading="lazy"
+                    alt="Ração úmida para cachorros" class="image-contain">
+
+                  <div class="card-badge">New</div>
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Adicionar ao Carrinho</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Adicionar aos Favoritos</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">Cães</a> /
+                    <a href="#" class="card-cat-link">Adultos</a>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Ração Úmida GranPlus Gourmet Sachê Ovelha</a>
+                  </h3>
+
+                  <data class="card-price" value="2.87">R$ 2,87</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-6.png" width="312" height="350" loading="lazy"
+                    alt="Ração úmida para gatos" class="image-contain">
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Adicionar ao Carrinho</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Adicionar aos Favoritos</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">Gatos</a> /
+                    <a href="#" class="card-cat-link">Adultos</a> /
+                    <a href="#" class="card-cat-link">Castrados</a>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Ração Úmida Optimum Sachê Frango</a>
+                  </h3>
+
+                  <data class="card-price" value="3.19">R$ 3,19</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-7.png" width="312" height="350" loading="lazy"
+                    alt="Ração úmida para gatos" class="image-contain">
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Adicionar ao Carrinho</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Adicionar aos Favoritos</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">Gatos</a> /
+                    <a href="#" class="card-cat-link">Adultos</a>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Ração Úmida Whiskas Sachê Frango ao Molho</a>
+                  </h3>
+
+                  <data class="card-price" value="2.91">R$ 2,91</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="product-item">
+              <div class="product-card" tabindex="0">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/product-8.png" width="312" height="350" loading="lazy"
+                    alt="Ração seca para gatos" class="image-contain">
+
+                  <ul class="card-action-list">
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-1">
+                        <ion-icon name="cart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-1">Adicionar ao Carrinho</div>
+                    </li>
+
+                    <li class="card-action-item">
+                      <button class="card-action-btn" aria-labelledby="card-label-2">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <div class="card-action-tooltip" id="card-label-2">Adicionar aos Favoritos</div>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-cat">
+                    <a href="#" class="card-cat-link">Gatos</a> /
+                    <a href="#" class="card-cat-link">Adultos</a> /
+                    <a href="#" class="card-cat-link">Castrados</a>
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Ração Royal Canin Premium Cat</a>
+                  </h3>
+
+                  <data class="card-price" value="292.21">R$ 292,21</data>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--------------------------->
+      <!-------- #SERVIÇOS -------->
+      <!--------------------------->
+
+      <section class="section service">
+        <div class="container">
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card" style="background-image: url('./assets/images/service-1.png')">
+                <p class="card-subtitle">Animais de pequeno porte</p>
+
+                <h3 class="h2 card-title">Serviços de Banho e Tosa</h3>
+
+                <a href="#" class="btn btn-link">
+                  <span>Contrate Agora</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" style="background-image: url('./assets/images/service-2.png')">
+                <p class="card-subtitle">Animais de grande porte</p>
+
+                <h3 class="h2 card-title">Serviços de Banho e Tosa</h3>
+
+                <a href="#" class="btn btn-link">
+                  <span>Contrate Agora</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--------------------------->
+      <!------ #ASSISTÊNCIA ------->
+      <!--------------------------->
+
+      <section class="section assistance">
+        <div class="container">
+
+          <ul class="assistance-list">
+
+            <li class="assistance-item">
+              <div class="assistance-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/assistance-1.png" width="53" height="28" loading="lazy"
+                    alt="Assistance icon">
+                </div>
+
+                <div>
+                  <h3 class="h4 card-title">Frete Grátis</h3>
+
+                  <p class="card-text">
+                    Compras acima de <span>R$ 350,00</span>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="assistance-item">
+              <div class="assistance-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/assistance-2.png" width="43" height="35" loading="lazy"
+                    alt="Assistance icon">
+                </div>
+
+                <div>
+                  <h3 class="h4 card-title">Pagamento Rápido</h3>
+
+                  <p class="card-text">
+                    Pagamento 100% seguro
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="assistance-item">
+              <div class="assistance-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/assistance-3.png" width="40" height="40" loading="lazy"
+                    alt="Assistance icon">
+                </div>
+
+                <div>
+                  <h3 class="h4 card-title">Devolução Grátis</h3>
+
+                  <p class="card-text">
+                    Estorno em até 15 dias
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="assistance-item">
+              <div class="assistance-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/assistance-4.png" width="40" height="40" loading="lazy"
+                    alt="assistance icon">
+                </div>
+
+                <div>
+                  <h3 class="h4 card-title">Suporte 24/7</h3>
+
+                  <p class="card-text">
+                    Obtenha suporte rápido
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--------------------------->
+      <!-------- #RODAPÉ ---------->
+      <!--------------------------->
+
+      <footer class="footer">
+
+        <div class="footer-top section">
+          <div class="container">
+
+            <div class="footer-brand">
+
+              <a href="#" class="logo">
+                <img src="./assets/images/logo.png" width="160" height="50" alt="Footcap logo">
+              </a>
+
+              <ul class="social-list">
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="footer-link-box">
+
+              <ul class="footer-list">
+
+                <li>
+                  <p class="footer-list-title">Atendimento</p>
+                </li>
+
+                <li>
+                  <address class="footer-link">
+                    <ion-icon name="location"></ion-icon>
+
+                    <span class="footer-link-text">
+                      Rua dos Felinos, 456, Bairro Petville, CEP 11222-333, Brasil
+                    </span>
+                  </address>
+                </li>
+
+                <li>
+                  <a href="tel:+557343673257" class="footer-link">
+                    <ion-icon name="call"></ion-icon>
+
+                    <span class="footer-link-text">+5498877711</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="mailto:footcap@help.com" class="footer-link">
+                    <ion-icon name="mail"></ion-icon>
+
+                    <span class="footer-link-text">suporte@pawspet.com</span>
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="footer-list">
+
+                <li>
+                  <p class="footer-list-title">Minha Conta</p>
+                </li>
+
+                <li>
+                  <a href="register.html" class="footer-link">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                    <span class="footer-link-text">Registrar</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer-link">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                    <span class="footer-link-text">Configurações</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer-link">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                    <span class="footer-link-text">Meus Pedidos</span>
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="footer-list">
+
+                <li>
+                  <p class="footer-list-title">Ajuda</p>
+                </li>
+
+                <li>
+                  <a href="#" class="footer-link">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                    <span class="footer-link-text">Dúvidas Frequentes</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer-link">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                    <span class="footer-link-text">Trocas de Devoluções</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="footer-link">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+
+                    <span class="footer-link-text">Frete e Entrega</span>
+                  </a>
+                </li>
+
+              </ul>
+
+              <div class="footer-list">
+
+                <p class="footer-list-title">Receba as novidades</p>
+
+                <p class="newsletter-text">
+                  Inscreva-se agora para receber atualizações e descontos exclusivos!
+                </p>
+
+                <form action="" class="newsletter-form">
+                  <input type="email" name="email" required placeholder="Endereço de e-mail" class="newsletter-input">
+
+                  <button type="submit" class="btn btn-primary">Cadastrar</button>
+                </form>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="container">
+
+            <p class="copyright">
+              &copy; 2023 <a href="#" class="copyright-link">Pawspet</a>. Todos os Direitos Reservados
+            </p>
+
+          </div>
+        </div>
+
+      </footer>
+
+
+
+
+
+      <!-- botão ir para o topo -->
+
+      <a href="#top" class="go-top-btn" data-go-top>
+        <ion-icon name="arrow-up-outline"></ion-icon>
+      </a>
+
+
+
+
+
+</body>
+
+</html>
