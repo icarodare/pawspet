@@ -1,7 +1,6 @@
 <div align="center">
 
   <br />
-  <br />
 
   <h1 align="center">Pawspet - PetShop eCommerce website</h1>
 
@@ -15,11 +14,15 @@
 
 ![Pawspet Desktop Demo](./assets/images/readme-img.png "Desktop Demo")
 
+<br />
+
 ### Pré-requisitos
 
 Antes de começar, certifique-se de atender aos seguintes requisitos:
 
 * [Git](https://git-scm.com/downloads "Download Git") deve estar instalado no seu sistema operacional.
+
+<br />
 
 ### Rodar Localmente
 
@@ -36,11 +39,13 @@ Windows:
 ```bash
 git clone https://github.com/icarodare/pawspet.git
 ```
+<br />
 
 ### Contato
 
-Caso queira entrar em contato comigo, faça-o através do [Email](mailto:icaro.dare@outlook.com)
+Caso queira entrar em contato comigo, faça-o através do [Email](mailto:icaro.dare@outlook.com).
 
+<br />
 
 ### Licença
 
